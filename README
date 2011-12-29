@@ -1,4 +1,4 @@
-This is an dot matrix LCD driver for the DOGM128 built by Electronic 
+This is a dot matrix LCD driver for the DOGM128 built by Electronic 
 Assembly, it may work with any other LCD module that uses the ST756R 
 controller chip.
 
