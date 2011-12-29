@@ -1,0 +1,20 @@
+This is an dot matrix LCD driver for the DOGM128 built by Electronic 
+Assembly, it may work with any other LCD module that uses the ST756R 
+controller chip.
+
+The code is written in C for the HI-TECH C compiler but it should be
+easily adaptable to any other as long as you take care of word length
+and other issues. The original target is a 16 bit Microchip PIC 
+PIC16F1936 microproccesor.
+
+A complete CP437 based, 7x5 pixels font is provided, along with big 
+48x30 pixels digits from 0 to 9. (The driver was written for an 
+instrument panel)
+
+In the tools folder you will find a bash script that converts 1bpp BMP
+files to C header files, this script was used to generate the fonts.
+The source bitmap for the digits is also included, along with an example
+output which happens to be an 1bpp picture of my lovely girlfriend.
+
+Some additional wrappers and headers are provided for the USART and SPI
+interfaces, mainly for reference.
